@@ -1,0 +1,12 @@
+[package]
+name = "jvm-adapter-rust"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+jni = "0.19.0"
+core-lib = { path = "../core-lib" }
